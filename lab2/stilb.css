@@ -1,0 +1,155 @@
+body.osnova {
+    background-image: url('cartinki/phon.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.osnova::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+body.country_japan {
+    background-color: rgb(98, 5, 121);
+    background-image: url('cartinki/phon_japan.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.country_japan::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+body.country_kitay {
+    background-color: rgb(98, 5, 121);
+    background-image: url('cartinki/phon_kitay.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.country_kitay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+body.country_koreya {
+    background-color: rgb(98, 5, 121);
+    background-image: url('cartinki/phon_koreya.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body.country_koreya::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.zagolovok {
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 120px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    word-spacing: 40px;
+    user-select: none;
+    color:#080808;
+}
+
+.zagolovok_country {
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    word-spacing: 40px;
+    user-select: none;
+}
+
+#osnova_flagi {
+    margin-top: 350px;
+    margin-left: 165px;
+}
+
+td.flagi_japan_left{
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: left;
+}
+
+td.flagi_kitay_right {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: right;
+}
+
+td.flagi_koreya_center {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+img.flagi {
+    width: 240px;
+    height: 160px;
+    border-radius: 10px;
+    border: 3px #080808 solid;
+    box-shadow: 0px 0px 50px 0px #080808;
+}
+
+img.pers {
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+    border: 3px #080808 solid;
+    box-shadow: 0px 0px 50px 0px #080808;
+}
+
+div.cartochki {
+    margin-top: 100px;
+    margin-left: 190px;
+}
+
+div.cartochka {
+    display: inline-block;
+    background-color: rgb(112, 80, 129);
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+p {
+    font-size: 20px;
+}
